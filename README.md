@@ -93,11 +93,97 @@
 
 5. Push changes
 
-   ```shell
+   ```bash
    git push <REMOTENAME> <BRANCH>
    ```
 
-   
 
 
+## Forks And Clones
+
+
+
+1. Fork
+
+   - Click **Fork** button
+
+2. Clone
+
+   - Clone a respository
+
+     ```shell
+     git clone <FORKEDURL>
+     ```
+
+   - Connect to the Original Repository
+
+     ```shell
+     git remote add upstream <ORIGINALURL>
+     ```
+
+
+
+## Branches
+
+
+
+1. GitHub Pages
+
+   - GitHub will automatically serve and host static website files in branches named 'gh-pages'
+
+2. Create a branch
+
+   ```shell
+   git branch <BRANCHNAME>
+   ```
+
+3. Go into a branch
+
+   ```shell
+   git checkout <BRANCHNAME>
+   ```
+
+4. Create and Go into a branch
+
+   ```shell
+   git checkout -b <BRANCHNAME>
+   ```
+
+5. List the branches
+
+   ```shell
+   git branch
+   ```
+
+6. Rename a branch currently on
+
+   ```shell
+   git branch -m <NEWNAME>
+   ```
+
+7. Merge data
+
+   ```shell
+   git merge <BRANCHNAME>
+   ```
+
+8. Delete local branch
+
+   ```shell
+   git branch -d <BRANCHNAME>
+   ```
+
+9. Delete a remote branch
+
+   ```shell
+   git push <REMOTENAME> --delete <BRANCHNAME>
+   ```
+
+10. Pull from a remote branch
+
+    ```shell
+    git pull <REMOTENAME> <BRANCHNAME>
+    ```
+
+    
 
