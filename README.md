@@ -4,6 +4,8 @@
 
 ## Config
 
+
+
 1. Set name:
 
    ```shell
@@ -25,6 +27,8 @@
    
 
 ## Create Repository
+
+
 
 1. Init:
 
@@ -56,9 +60,44 @@
    git diff
    ```
 
+
+
+
+## Remote Control
+
+
+
+1. Add remote connections
+
+	```shell
+	git remote add <REMOTENAME> <URL>
+	```
+	
+2. Set a URL to a remote
+
+   ```shell
+   git remote set-url <REMOTENAME> <URL>
+   ```
+
+3. Pull in changes
+
+   ```shell
+   git pull <REMOTENAME <BRANCHNAME>
+   ```
+
+4. View remote addresses
+
+   ```shell
+   git remote -v
+   ```
+
+5. Push changes
+
+   ```shell
+   git push <REMOTENAME> <BRANCH>
+   ```
+
    
-
-
 
 
 
